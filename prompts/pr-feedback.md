@@ -21,7 +21,10 @@ Please use sub-agents to accomplish these goals. Once a sub-agent is done, have 
 ## Comments
 
 I use the above in combination with my [Get-UnresolvedPRComments.ps1](https://github.com/wallstop/wallstop-utils/tree/main/Scripts/Utils/GitHub) script invoked like so:
-> pwsh ./Scripts/Utils/GitHub/Get-UnresolvedPRComments.ps1 -Copy https://github.com/wallstop/unity-helpers/pull/199
+
+```powershell
+pwsh ./Scripts/Utils/GitHub/Get-UnresolvedPRComments.ps1 -Copy https://github.com/wallstop/unity-helpers/pull/199
+```
 
 to automatically retrieve and paste all comments and suggestions into the empty space at the top, for full context. Depending on integrations with your agents this might not be necessary.
 
