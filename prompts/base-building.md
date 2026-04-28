@@ -19,6 +19,8 @@ Can you adapt this infrastructure and concept to this repo? I'm interested in:
 - Index generation
 - Automation around all of this
 - Clean organization
+
+Please use sub-agents to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work in an adversarial fashion. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. I want 110% here, give it all you've got!
 ```
 
 ## Comments
