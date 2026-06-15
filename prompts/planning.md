@@ -29,11 +29,11 @@ Whenever I have an agent do plan mode, if the plan is larger than 2 phases, I ut
 ## Prompt
 
 ```
-There is a PLAN.md detailing improvements to this project. Please continue with the highest-priority item, making progress in a task-oriented fashion. As work is done, write details back to a "progress" directory in markdown format (literal "progress" directory at repo base, *not* ".llm/progress"), with descriptive, unified formatting and file naming (*session-NUMBER-brief-description*) for ease of discovery. Once items are fully complete, please ensure that PLAN.md items are up-to-date and any outdated or complete PLAN.md information is removed. 
+There is a PLAN.md detailing improvements to this project. Please continue with the highest-priority item(s), making progress in a task-oriented fashion. As work is done, write details back to a "progress" directory in markdown format (literal "progress" directory at repo base, *not* ".llm/progress"), with descriptive, unified formatting and file naming (*session-NUMBER-brief-description*) for ease of discovery. Once items are fully complete, please ensure that PLAN.md items are up-to-date and any outdated or complete PLAN.md information is removed. Work should be performed in a red-green fashion, if possible.
 
-Please use sub-agents to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work in an adversarial fashion. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. I want 110% here, give it all you've got!
+Please use sub-agents where appropriate to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work in an adversarial fashion. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. If not using subagents, perform this loop on your main thread. I want 110% here, give it all you've got!
 
-Please only fully implement max five PLAN items per session - only one or two items if they are large, more if they are smaller.
+Please only fully implement a max of seven PLAN items per session - only one to three items if they are large, more if they are smaller.
 ```
 
 ## Comments
@@ -45,7 +45,7 @@ Please only fully implement max five PLAN items per session - only one or two it
 ```
 There is a PLAN.md detailing various improvements. Can you do an analysis of the current state of the project, compare it to the PLAN.md, and remove all items from the PLAN.md that are fully completed and no longer relevant? Remove similar checkpoint items that are fully complete and no longer relevant. 
 
-Please use sub-agents to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work in an adversarial fashion. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. I want 110% here, give it all you've got!
+Please use sub-agents where appropriate to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work in an adversarial fashion. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. If not using subagents, perform this loop on your main thread. I want 110% here, give it all you've got!
 ```
 
 ## Comments
