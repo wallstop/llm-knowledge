@@ -93,4 +93,14 @@ It is extremely important that no files, like pdfs or similar, are downloaded in
 
 I find a bunch of blog posts or docs or whatever and hand-tune this prompt many times over to build up project and repo-specific knowledge and skills.
 
-- 
+# Mandatory Self-Improvement
+
+## Prompt
+
+```
+Can you add a mandatory agentic workflow that, after any large piece of work or change, to analyze the work done, see if there are any improvements or new knowledge gained, and to self-update llm info (skills, roles, workflows, etc) for self-improvement, such that we are able to systematically address whatever problems were found at their core (new, comprehensive techniques), or just trivia that should be stored and referenced, or anything similarly useful
+
+Please use sub-agents where appropriate to accomplish these goals. Once a sub-agent is done, have another sub-agent review its work. If there are any recommendations, have another sub-agent consider them and implement them. Repeat this process in a loop until all sub-agents achieve consensus that the result is incredibly high quality (110/100, exceptional work, absolutely zero issues, minor or otherwise) and does not require any revisions. If not using subagents, perform this loop on your main thread. I want 110% here, give it all you've got!
+```
+
+## Comments
