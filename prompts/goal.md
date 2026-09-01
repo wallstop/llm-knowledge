@@ -4,6 +4,7 @@ Complete all objectives, then open a PR that achieves a fully green state (all C
 ## Work Style
 
 - **Task-based, red-green, data-backed, exploratory, science-driven.**
+- Research (web?) modern best practices and relevant SOTA techniques.
 - Commit and push freely. Small, coherent commits.
 - Address all non-trivial reviewer feedback and CI failures before moving to the next task.
 
